@@ -2,6 +2,7 @@
 <html>
 <head>
 <meta name="viewport" content="width=device-width, initial-scale=1">
+<script src="https://code.jquery.com/jquery-1.10.2.js"></script>
 <style>
 body {
   font-family: Arial, Helvetica, sans-serif;
@@ -74,6 +75,18 @@ html {
 </style>
 </head>
 <body>
+
+<!--Navigation bar-->
+<div id="nav-placeholder">
+
+</div>
+
+<script>
+$(function(){
+  $("#nav-placeholder").load("nav.html");
+});
+</script>
+<!--end of Navigation bar-->
 
 <div class="about-section">
   <h1>About Me</h1>
