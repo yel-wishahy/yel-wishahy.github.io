@@ -8,11 +8,17 @@
     <link rel="stylesheet" href="assets/bootstrap/css/bootstrap.min.css">
     <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Lato:300,400,700">
     <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Adamina&amp;display=swap">
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Arimo&amp;display=swap">
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Armata&amp;display=swap">
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Kalam&amp;display=swap">
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Titillium+Web:400,600,700">
     <link rel="stylesheet" href="assets/fonts/ionicons.min.css">
     <link rel="stylesheet" href="assets/css/4-Column-Team-Block---Circles.css">
     <link rel="stylesheet" href="assets/css/Animation-Cards-1.css">
     <link rel="stylesheet" href="assets/css/Animation-Cards.css">
+    <link rel="stylesheet" href="assets/css/Button-Change-Text-on-Hover.css">
     <link rel="stylesheet" href="assets/css/Contact-Form-Clean.css">
+    <link rel="stylesheet" href="assets/css/dh-card-image-left-dark.css">
     <link rel="stylesheet" href="assets/css/Footer-Basic.css">
     <link rel="stylesheet" href="assets/css/Highlight-Phone.css">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/3.5.2/animate.min.css">
@@ -91,26 +97,108 @@
                     <div class="card cards-shadown cards-hover" data-bss-hover-animate="pulse"><img class="card-img-top w-100 d-block" src="assets/img/robot4.jpg">
                         <div class="card-body">
                             <p class="card-text cardbody-sub-text" style="color: rgb(0,0,0);font-weight: bold;font-size: 32px;text-align: center;line-height: 30px;">Can Retrieval Robot</p>
-                            <p class="card-text sub-text-color" style="color: rgb(0,0,0);font-size: 24px;text-align: center;line-height: 24px;">An autonomous navigation, collection, and disposal robot.</p>
+                            <p class="card-text sub-text-color" style="color: rgb(0,0,0);font-size: 24px;text-align: center;line-height: 24px;">An autonomous navigation, collection, and disposal robot.<a class="stretched-link" href="#" data-bs-target="#modalRobot" data-bs-toggle="modal"></a></p>
                         </div>
                     </div>
-                </div>
-                <div class="col">
-                    <div class="card cards-shadown cards-hover" data-bss-hover-animate="pulse"><img class="card-img-top w-100 d-block" src="assets/img/2dgame.png">
-                        <div class="card-body">
-                            <p class="card-text cardbody-sub-text" style="color: rgb(0,0,0);font-weight: bold;font-size: 32px;text-align: center;line-height: 30px;">2D Platformer Fighter Game</p>
-                            <p class="card-text sub-text-color" style="color: rgb(0,0,0);font-size: 24px;text-align: center;line-height: 24px;">A 2D platformer fighter game where you engage in combat with chickens and pickup special items.<a class="stretched-link" href="ChickenFighter/index.html"></a></p>
+                    <div class="modal fade" role="dialog" tabindex="-1" id="modalRobot">
+                        <div class="modal-dialog modal-lg" role="document">
+                            <div class="modal-content">
+                                <div class="modal-header">
+                                    <h2 class="modal-title">Can Retrieval Robot (Summer 2021)</h2><button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                                </div>
+                                <div class="modal-body">
+                                    <h3 class="text-start" style="margin-top: -10px;">Links</h3>
+                                    <div class="btn-group" role="group" style="margin-top: 0px;margin-right: -6px;margin-bottom: 15px;"><button class="btn btn-primary" type="button" style="background: rgb(100,163,50);">Github<a class="stretched-link" href="https://github.com/yel-wishahy/ENPH253_Robot"></a></button><button class="btn btn-primary" type="button" style="background: rgb(100,163,50);">Live Competition Video<a class="stretched-link" href="https://www.youtube.com/watch?v=xkh0X_zH3i8&amp;t=12366s"></a></button></div>
+                                    <h3 class="text-start">Skills</h3> <div class="d-grid gap-3 d-md-block">
+             <button class="btn btn-primary btn-sm" type="button"  style="background: #17a2b8">OnShape</button>
+            <button class="btn btn-primary btn-sm" type="button"  style="background: #28a745">Arduino</button>
+            <button class="btn btn-primary btn-sm" type="button"  style="background: #28a745">Python</button>
+            <button class="btn btn-primary btn-sm" type="button"  style="background: #28a745">C/C++</button>
+            <button class="btn btn-primary btn-sm" type="button"  style="background: #007bff">Wiring Diagrams</button>
+            <button class="btn btn-primary btn-sm" type="button"  style="background: #007bff">Circuit Design</button>
+            <button class="btn btn-primary btn-sm" type="button"  style="background: #6c757d">Breadboard</button>
+            <button class="btn btn-primary btn-sm" type="button"  style="background: #6c757d">Soldering</button>
+        </div>
+                                    <h3 class="text-start" style="margin-top: 15px;">Result</h3>
+                                    <p style="color: rgb(0,0,0);font-size: 16px;letter-spacing: normal;line-height: 24px;font-family: Lato, sans-serif;">I collaborated with three other students to design, assemble and test four robots that autonomously navigate on a tape path, collect cans, and drop them off in a silo. The robot chasse was constructed out of corrugated plastic and mounted onto two motors and a caster.&nbsp; Power was supplied by a 12V lithium ion battery and regulated to other components ;&nbsp; electronics were soldered onto protoboards. The firmware was written in C, C++ and Arduino framework and ran on a BluePill board with an STM32 microprocessor. Navigation was accomplished by two infrared sensors and a PID control algorithm. A sonar and a series of servo motors with corrugated plastic arms were used to detect, pickup, and drop-off any cans that the robot detected. Our robots tied for first place in a competition with 15 other teams in which can arrangements were randomized and the robots had to complete an 8ft x 8ft circuit in 1 minute.</p>
+                                    <h3 class="text-start">Contribution</h3>
+                                    <ul>
+                                        <li>Electrical design; designed and assembled prototype servo, H-bridge, sensors, and microprocessor electrical circuits<br></li>
+                                        <li>Tested and optimized flaws in prototype circuit and drafted final designs<br></li>
+                                        <li>Firmware programming and debugging</li>
+                                        <li>Improved PID Control by implementing smooth error mapping algorithm</li>
+                                        <li>Developed simulation in python to predict robot performance</li>
+                                        <li>Implemented wireless communication system to efficiently tune robot parameters</li>
+                                    </ul>
+                                    <h3 class="text-start">Details</h3>
+                                    <p style="color: rgb(0,0,0);font-size: 16px;letter-spacing: normal;line-height: 24px;font-family: Lato, sans-serif;">This project was done in an engineering project course during the summer of 2021 - in the midst of the pandemic. The fact that the course was online limited the materials and tools at our disposal, and teamwork. Due to some students residing outside of the country, each student was required to build a robot which resulted in my team designing one robot and replicating it four times.&nbsp;<br><br>The assessment of the course included a design presentation, a timed trial, and the final competition. Following a "Mars Retrieval" theme in light of the recent rover launch, the competition required the robot to descend into an arena with a sky crane and pickup a samples (cans) and deposit them in a return rocket (card-board silo). The time-limit was 1 minute and the can arrangement was randomized. My team opted to line the arena with a tape path for the robot to follow that maximized the robot's chance to encounter a can.&nbsp;<br><br><img src="assets/img/robot-competition-surface.png"><br>Figure 1. Competition surface.<br><br>We considered not having a tape path and instead utilize a sonar to detect and map can locations and traverse to these cans.&nbsp;<br><br><img src="assets/img/canangletest.jpg"><img src="assets/img/sonarangleDisplay.png"><br>Figure 2. Testing angular error and detection width on a sonar.<br><br>During the planning phase, in order to help quantify design decisions, I programmed python code that simulates, in 2D coordinates, several robot traversal paths as well as the randomized can arrangements. Through this simulation, we acquired a rough estimate of the time it would take to traverse certain paths, and which traversal technique would be more effective. We can to the conclusion that a robot following a pre-determined path, and detecting cans in local proximity would be a better option than long ranged detection. We called this the 'sweep' method.<br><br><img src="assets/img/SIM-example.png"><br>Figure 3. Snippet of python simulation output in Jupyter notebook.<br><br>The mechanical design of the robot consisted of a chasse capable of storing 6 cans horizontally, the cans are stored until it is time to drop them off. The cans are detected with a sonar, collected with an actuated arm, and are lifted to the storage location through another arm; the arms are rotated with servo motors. There are 2 rows of can storage, storing 3 cans each, and directed by an actuated gate at the top.<br><br><img src="assets/img/robotCadnochute.png"><img src="assets/img/robotCadCHUTE.png"><br>Figure 4. Robot CAD, created in OnShape.<br><br>To test the speed of the motors as well as the navigation, I prototyped the h-bridge and processing circuits as well as a crude cardboard prototype robot. I then implemented a wireless communications system to modify parameters and control the robot on the go. The system utilized an IR receiver and remote as well as binary decoders and was programmed in C++.&nbsp;<br></p><div class="embed-responsive embed-responsive-4by3">
+    <iframe width="360" height="215" src="https://www.youtube.com/embed/YfvNZo1ddVw" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+    <iframe width="360" height="215" src="https://www.youtube.com/embed/Wj-xI_V-zus" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+    <p style="color: rgb(0,0,0);font-size: 16px;letter-spacing: normal;line-height: 24px;font-family: Lato, sans-serif;"> Figure 5. Early robot prototypes, used to test the BluePill, motors, h-bridge circuits, and the navigation algoritms.</p>
+</div>
+
+
+                                    <p style="color: rgb(0,0,0);font-size: 16px;letter-spacing: normal;line-height: 24px;font-family: Lato, sans-serif;"><img src="assets/img/hbridge-design.png"><br><img src="assets/img/power-reg-circuit.png"><br>Figure 6. H-Bridge (top) and power regulator (bottom) circuit schematics.</p>
+                                </div>
+                                <div class="modal-footer"><button class="btn btn-light" type="button" data-bs-dismiss="modal">Close</button><button class="btn btn-primary" type="button">Save</button></div>
+                            </div>
                         </div>
                     </div>
                 </div>
                 <div class="col">
                     <div class="card cards-shadown cards-hover" data-bss-hover-animate="pulse"><img class="card-img-top w-100 d-block" src="assets/img/ItemEconomyAd.png" href="ChickenFighter/index.html">
                         <div class="card-body">
-                            <p class="card-text cardbody-sub-text" style="color: rgb(0,0,0);font-weight: bold;font-size: 32px;text-align: center;line-height: 30px;">Item Economy: A Minecraft Plugin</p>
-                            <p class="card-text sub-text-color" style="color: rgb(0,0,0);font-size: 24px;text-align: center;line-height: 24px;">A Java plugin for a Minecraft server which allows players to create in-game bank accounts and utilize item based currencies</p>
+                            <p class="card-text cardbody-sub-text" style="color: rgb(0,0,0);font-weight: bold;font-size: 32px;text-align: center;line-height: 30px;">Item Economy</p>
+                            <p class="card-text sub-text-color" style="color: rgb(0,0,0);font-size: 24px;text-align: center;line-height: 24px;">A Minecraft plugin developed in Java which allows players to create bank accounts and utilize item based currencies.</p>
                         </div>
                     </div>
                 </div>
+                <div class="col">
+                    <div class="card cards-shadown cards-hover" data-bss-hover-animate="pulse"><img class="card-img-top w-100 d-block" src="assets/img/2dgame.png">
+                        <div class="card-body">
+                            <p class="card-text cardbody-sub-text" style="color: rgb(0,0,0);font-weight: bold;font-size: 32px;text-align: center;line-height: 30px;">Chicken Runner</p>
+                            <p class="card-text sub-text-color" style="color: rgb(0,0,0);font-size: 24px;text-align: center;line-height: 24px;">A 2D platformer fighter game where you engage in combat with chickens and pickup special items.<a class="stretched-link" href="ChickenFighter/index.html"></a></p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="row space-rows">
+                <div class="col">
+                    <div class="card cards-shadown cards-hover" data-bss-hover-animate="pulse"><img class="card-img-top w-100 d-block" src="assets/img/download.png">
+                        <div class="card-body">
+                            <p class="card-text cardbody-sub-text" style="color: rgb(0,0,0);font-weight: bold;font-size: 32px;text-align: center;line-height: 30px;">UBC Mars Colony</p>
+                            <p class="card-text sub-text-color" style="color: rgb(0,0,0);font-size: 24px;text-align: center;line-height: 24px;">An engineering student team with the goal of designing and assembling infrastructure that could allow for habitation and research on Mars.<a class="stretched-link" href="#modal-1" data-bs-target="#modal-1" data-bs-toggle="modal"></a></p>
+                        </div>
+                    </div>
+                </div>
+                <div class="col">
+                    <div class="card cards-shadown cards-hover" data-bss-hover-animate="pulse"><img class="card-img-top w-100 d-block" src="assets/img/ADCpic.jpeg">
+                        <div class="card-body">
+                            <p class="card-text cardbody-sub-text" style="color: rgb(0,0,0);font-weight: bold;font-size: 32px;text-align: center;line-height: 30px;">Analog to Digital Converter</p>
+                            <p class="card-text sub-text-color" style="color: rgb(0,0,0);font-size: 24px;text-align: center;line-height: 24px;">An electronic circuit that converts analog voltages into binary signals.</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="col">
+                    <div class="card cards-shadown cards-hover" data-bss-hover-animate="pulse"><img class="card-img-top w-100 d-block" src="assets/img/AIWORLDcpen221.png">
+                        <div class="card-body">
+                            <p class="card-text cardbody-sub-text" style="color: rgb(0,0,0);font-weight: bold;font-size: 32px;text-align: center;line-height: 30px;">AI Virtual World</p>
+                            <p class="card-text sub-text-color" style="color: rgb(0,0,0);font-size: 24px;text-align: center;line-height: 24px;">A virtual world AI simulation with 2D pixel-art developed in Java.</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="row space-rows">
+                <div class="col">
+                    <div class="card cards-shadown cards-hover" data-bss-hover-animate="pulse"><img class="card-img-top w-100 d-block" src="assets/img/roboticClaw.jpg">
+                        <div class="card-body">
+                            <p class="card-text cardbody-sub-text" style="color: rgb(0,0,0);font-weight: bold;font-size: 32px;text-align: center;line-height: 30px;">Robotic Claw</p>
+                            <p class="card-text sub-text-color" style="color: rgb(0,0,0);font-size: 24px;text-align: center;line-height: 24px;">A semi-autonomous robotic claw designed to pickup items of different sizes.</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="col"></div>
+                <div class="col"></div>
             </div>
         </section>
     </main>
