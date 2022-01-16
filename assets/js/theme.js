@@ -11,3 +11,10 @@ $(document).ready(function() {
   }
 
 });
+
+$(document).ready(function() {  
+  var modals = ['#modalRobot', '#anotherModal'];
+  if (window.location.hash && ~modals.indexOf(window.location.hash)) {
+     $(window.location.hash).modal();
+  }
+})
