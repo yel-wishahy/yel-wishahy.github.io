@@ -3,3 +3,11 @@ document.querySelectorAll('.datepicker').forEach(function(field) {
 		field: field
 	});
 });
+
+$(document).ready(function() {
+
+  if(window.location.href.indexOf('#modalRobot') != -1) {
+    $('#modalRobot').modal('show');
+  }
+
+});
