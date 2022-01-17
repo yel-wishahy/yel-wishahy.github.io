@@ -43,7 +43,6 @@
                 <ul class="navbar-nav ms-auto">
                     <li class="nav-item"><a class="nav-link active" href="#experience" data-bs-target="index">Experience</a></li>
                     <li class="nav-item"><a class="nav-link active" href="#projects">Projects</a></li>
-                    <li class="nav-item"><a class="nav-link" href="https://drive.google.com/file/d/1LK9q2JGF73d5X-cBLY9paGJ8tuB9rlXP/view?usp=sharing">Resume</a></li>
                 </ul>
             </div>
         </div>
@@ -58,6 +57,9 @@
                         </div>
                     </div>
                     <div class="col-sm-4"><img class="img-fluid" src="assets/img/Yousif-headshot.jpg" height="auto" style="transform: translateY(37px);text-align: center;"></div>
+                    <div class="col">
+                        <div class="btn-group" role="group"><button class="btn btn-info text-capitalize" type="button" style="background: rgb(0,87,255);margin-right: 10px;">LinkedIn&nbsp;<i class="icon ion-social-linkedin-outline"></i>&nbsp;<a class="stretched-link" href="https://www.linkedin.com/in/yousif-elwishahy/"></a></button><button class="btn btn-info text-capitalize" type="button" style="background: rgb(0,87,255);margin-right: 10px;">gitHub&nbsp;<i class="icon ion-social-github-outline"></i>&nbsp;<a class="stretched-link" href="https://github.com/yel-wishahy/"></a></button><button class="btn btn-info text-capitalize" type="button" style="background: rgb(0,87,255);margin-right: 10px;">Contact Form&nbsp;&nbsp;<i class="icon ion-ios-email-outline"></i>&nbsp;<a class="stretched-link" href="#contactform"></a></button><button class="btn btn-info text-capitalize" type="button" style="background: rgb(0,87,255);margin-right: 10px;">Resume&nbsp;<i class="icon ion-ios-paper-outline"></i>&nbsp;<a class="stretched-link" href="https://drive.google.com/file/d/1LK9q2JGF73d5X-cBLY9paGJ8tuB9rlXP/view?usp=sharing"></a></button></div>
+                    </div>
                 </div>
             </div>
         </section>
@@ -74,7 +76,8 @@
       <div class="card-body">
           <h5 class="card-title"><b>Hardware and Frimware Engineer Co-op</b></h5>
         <h6 class="card-title1">Brave Cooperative | Vancouver, BC | Jan 2021 - Apr 2021</h6>
-        <p class="card-text">Worked with a team of engineers to improve a radar based human detection system that detected and responded to over 100 overdoses. </p>
+        <p class="card-text">Worked with a team of engineers to improve a radar based human detection system that detected and responded to over 100 overdoses.  </p>
+          <a class="stretched-link" href="https://www.brave.coop/" data-bs-target="#" data-bs-toggle="..."></a>
         <div class="d-grid gap-3 d-md-block">
              <button class="btn btn-primary btn-sm" type="button"  style="background: #17a2b8">Fusion360</button>
             <button class="btn btn-primary btn-sm" type="button"  style="background: #007bff">Eagle</button>
@@ -90,7 +93,7 @@
   </div>
 </div></div>
         </section>
-        <section id="projects">
+        <section id="projects" style="padding-bottom: 10px;">
             <h1>Technical Projects</h1>
             <div class="row space-rows">
                 <div class="col">
@@ -119,9 +122,9 @@
             <button class="btn btn-primary btn-sm" type="button"  style="background: #6c757d">Breadboard</button>
             <button class="btn btn-primary btn-sm" type="button"  style="background: #6c757d">Soldering</button>
         </div>
-                                    <h3 class="text-start" style="margin-top: 15px;">Result</h3>
+                                    <h3 class="text-start" style="margin-top: 15px;">Summary</h3>
                                     <p style="color: rgb(0,0,0);font-size: 16px;letter-spacing: normal;line-height: 24px;font-family: Lato, sans-serif;">I collaborated with three other students to design, assemble and test four robots that autonomously navigate on a tape path, collect cans, and drop them off in a silo. The robot chasse was constructed out of corrugated plastic and mounted onto two motors and a caster.&nbsp; Power was supplied by a 12V lithium ion battery and regulated to other components ;&nbsp; electronics were soldered onto protoboards. The firmware was written in C, C++ and Arduino framework and ran on a BluePill board with an STM32 microprocessor. Navigation was accomplished by two infrared sensors and a PID control algorithm. A sonar and a series of servo motors with corrugated plastic arms were used to detect, pickup, and drop-off any cans that the robot detected. Our robots tied for first place in a competition with 15 other teams in which can arrangements were randomized and the robots had to complete an 8ft x 8ft circuit in 1 minute.</p>
-                                    <h3 class="text-start">Contribution</h3>
+                                    <h3 class="text-start">My Contribution</h3>
                                     <ul>
                                         <li>Electrical design; designed and assembled prototype servo, H-bridge, sensors, and microprocessor electrical circuits<br></li>
                                         <li>Tested and optimized flaws in prototype circuit and drafted final designs<br></li>
@@ -130,7 +133,7 @@
                                         <li>Developed simulation in python to predict robot performance</li>
                                         <li>Implemented wireless communication system to efficiently tune robot parameters</li>
                                     </ul>
-                                    <h3 class="text-start">Details</h3>
+                                    <h3 class="text-start">Project Details</h3>
                                     <p style="color: rgb(0,0,0);font-size: 16px;letter-spacing: normal;line-height: 24px;font-family: Lato, sans-serif;">This project was done in an engineering project course during the summer of 2021 - in the midst of the pandemic. The fact that the course was online limited the materials and tools at our disposal, and teamwork. Due to some students residing outside of the country, each student was required to build a robot which resulted in my team designing one robot and replicating it four times.&nbsp;<br><br>The assessment of the course included a design presentation, a timed trial, and the final competition. Following a "Mars Retrieval" theme in light of the recent rover launch, the competition required the robot to descend into an arena with a sky crane and pickup a samples (cans) and deposit them in a return rocket (card-board silo). The time-limit was 1 minute and the can arrangement was randomized. My team opted to line the arena with a tape path for the robot to follow that maximized the robot's chance to encounter a can.&nbsp;<br><br><img src="assets/img/robot-competition-surface.png"><br>Figure 1. Competition surface.<br><br>We considered not having a tape path and instead utilize a sonar to detect and map can locations and traverse to these cans.&nbsp;<br><br><img src="assets/img/canangletest.jpg"><img src="assets/img/sonarangleDisplay.png"><br>Figure 2. Testing angular error and detection width on a sonar.<br><br>During the planning phase, in order to help quantify design decisions, I programmed python code that simulates, in 2D coordinates, several robot traversal paths as well as the randomized can arrangements. Through this simulation, we acquired a rough estimate of the time it would take to traverse certain paths, and which traversal technique would be more effective. We can to the conclusion that a robot following a pre-determined path, and detecting cans in local proximity would be a better option than long ranged detection. We called this the 'sweep' method.<br><br><img src="assets/img/SIM-example.png"><br>Figure 3. Snippet of python simulation output in Jupyter notebook.<br><br>The mechanical design of the robot consisted of a chasse capable of storing 6 cans horizontally, the cans are stored until it is time to drop them off. The cans are detected with a sonar, collected with an actuated arm, and are lifted to the storage location through another arm; the arms are rotated with servo motors. There are 2 rows of can storage, storing 3 cans each, and directed by an actuated gate at the top.<br><br><img src="assets/img/robotCadnochute.png"><img src="assets/img/robotCadCHUTE.png"><br>Figure 4. Robot CAD, created in OnShape.<br><br>To test the speed of the motors as well as the navigation, I prototyped the h-bridge and processing circuits as well as a crude cardboard prototype robot. I then implemented a wireless communications system to modify parameters and control the robot on the go. The system utilized an IR receiver and remote as well as binary decoders and was programmed in C++.&nbsp;<br></p><div class="embed-responsive embed-responsive-4by3">
     <iframe width="360" height="215" src="https://www.youtube.com/embed/YfvNZo1ddVw" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
     <iframe width="360" height="215" src="https://www.youtube.com/embed/Wj-xI_V-zus" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
@@ -149,7 +152,33 @@
                     <div class="card cards-shadown cards-hover" data-bss-hover-animate="pulse"><img class="card-img-top w-100 d-block" src="assets/img/ItemEconomyAd.png" href="ChickenFighter/index.html">
                         <div class="card-body">
                             <p class="card-text cardbody-sub-text" style="color: rgb(0,0,0);font-weight: bold;font-size: 32px;text-align: center;line-height: 30px;">Item Economy</p>
-                            <p class="card-text sub-text-color" style="color: rgb(0,0,0);font-size: 24px;text-align: center;line-height: 24px;">A Minecraft plugin developed in Java which allows players to create bank accounts and utilize item based currencies.</p>
+                            <p class="card-text sub-text-color" style="color: rgb(0,0,0);font-size: 24px;text-align: center;line-height: 24px;">A Minecraft plugin developed in Java which allows players to create bank accounts and utilize item based currencies.<a class="stretched-link" href="#" data-bs-target="#modalMCPlugin" data-bs-toggle="modal"></a></p>
+                        </div>
+                    </div>
+                    <div class="modal fade" role="dialog" tabindex="-1" id="modalMCPlugin">
+                        <div class="modal-dialog modal-lg" role="document">
+                            <div class="modal-content">
+                                <div class="modal-header">
+                                    <h2 class="modal-title">Item Economy Minecraft Plugin (Jan-Aug 2021)</h2><button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                                </div>
+                                <div class="modal-body">
+                                    <h3 class="text-start" style="margin-top: -10px;">Links</h3>
+                                    <div class="btn-group" role="group" style="margin-top: 0px;margin-right: -6px;margin-bottom: 15px;"><button class="btn btn-primary" type="button" style="background: rgb(100,163,50);">Github<a class="stretched-link" href="https://github.com/yel-wishahy/MyPlugins/tree/ItemEconomy"></a></button></div>
+                                    <h3 class="text-start">Skills</h3> <div class="d-grid gap-3 d-md-block">
+            <button class="btn btn-primary btn-sm" type="button"  style="background: #28a745">Java</button>
+            <button class="btn btn-primary btn-sm" type="button"  style="background: #28a745">JSON Database</button>
+        </div>
+                                    <h3 class="text-start" style="margin-top: 15px;">Summary</h3>
+                                    <p style="color: rgb(0,0,0);font-size: 16px;letter-spacing: normal;line-height: 24px;font-family: Lato, sans-serif;">I programmed a plugin (server-side modification) for a Minecraft (videogame) server I hosted for friends. I decided to create it after my friends and I were attempting to simulate an in-game economy but ran into issues with keeping track of trades.&nbsp;The plugin is programmed in Java and allows for an economy where players can create bank accounts, trade with item-based physical currencies, and facilitate bank transfers. It works by accessing a server API called Paper which allows for manipulation of the players and game world. I later implemented AI bots that intelligently trade and tax players by monitoring the currency circulation as well as the player's shops. The shop's were facilitated by an external plugin name 'QuickShop' which I linked to through its API. A local .JSON&nbsp;file data base&nbsp; was developed since the server ran on my personal computer. I implemented algorithms to load and save all the required data to and from these files using Google's GSON library.&nbsp;<br></p>
+                                    <h3 class="text-start">Demonstration</h3><div class="embed-responsive embed-responsive-4by3">
+    <iframe width="360" height="215" src="https://www.youtube.com/embed/MuiKJ1oVDqU" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+    <p style="color: rgb(0,0,0);font-size: 16px;letter-spacing: normal;line-height: 24px;font-family: Lato, sans-serif;"> Plugin demonstration where a player checks his balance and proceeds to trade at a shop.</p>
+</div>
+
+
+                                </div>
+                                <div class="modal-footer"><button class="btn btn-light" type="button" data-bs-dismiss="modal">Close</button><button class="btn btn-primary" type="button">Save</button></div>
+                            </div>
                         </div>
                     </div>
                 </div>
@@ -175,7 +204,33 @@
                     <div class="card cards-shadown cards-hover" data-bss-hover-animate="pulse"><img class="card-img-top w-100 d-block" src="assets/img/ADCpic.jpeg">
                         <div class="card-body">
                             <p class="card-text cardbody-sub-text" style="color: rgb(0,0,0);font-weight: bold;font-size: 32px;text-align: center;line-height: 30px;">Analog to Digital Converter</p>
-                            <p class="card-text sub-text-color" style="color: rgb(0,0,0);font-size: 24px;text-align: center;line-height: 24px;">An electronic circuit that converts analog voltages into binary signals.</p>
+                            <p class="card-text sub-text-color" style="color: rgb(0,0,0);font-size: 24px;text-align: center;line-height: 24px;">An electronic circuit that converts analog voltages into binary signals.<a class="stretched-link" href="#" data-bs-target="#modalADC" data-bs-toggle="modal"></a></p>
+                        </div>
+                    </div>
+                    <div class="modal fade" role="dialog" tabindex="-1" id="modalADC">
+                        <div class="modal-dialog modal-lg" role="document">
+                            <div class="modal-content">
+                                <div class="modal-header">
+                                    <h2 class="modal-title">Analog to Digital Converter (Nov 2020)</h2><button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                                </div>
+                                <div class="modal-body">
+                                    <h3 class="text-start" style="margin-top: -10px;">Links</h3>
+                                    <div class="btn-group" role="group" style="margin-top: 0px;margin-right: -6px;margin-bottom: 15px;"><button class="btn btn-primary" type="button" style="background: rgb(100,163,50);">Project Report (PDF)<a class="stretched-link" href="https://drive.google.com/file/d/1PAyiJ473vp20RfegB5c70mo4bh0GzDc8/view?usp=sharing"></a></button></div>
+                                    <h3 class="text-start">Skills</h3> <div class="d-grid gap-3 d-md-block">
+            <button class="btn btn-primary btn-sm" type="button"  style="background: #28a745">Python</button>
+            <button class="btn btn-primary btn-sm" type="button"  style="background: #28a745">Jupyter Notebook</button>
+            <button class="btn btn-primary btn-sm" type="button"  style="background: #007bff">Wiring Diagrams</button>
+            <button class="btn btn-primary btn-sm" type="button"  style="background: #007bff">Circuit Design</button>
+            <button class="btn btn-primary btn-sm" type="button"  style="background: #007bff">Oscilloscope</button>
+            <button class="btn btn-primary btn-sm" type="button"  style="background: #6c757d">Breadboard</button>
+        </div>
+                                    <h3 class="text-start" style="margin-top: 15px;">Summary</h3>
+                                    <p style="color: rgb(0,0,0);font-size: 16px;letter-spacing: normal;line-height: 24px;font-family: Lato, sans-serif;">As a final project for an electrical design and analysis course, I created an analog to digital converter (ADC) circuit on a breadboard. The ADC converts an analog voltage into a binary signal representation of the voltage level.<br></p>
+                                    <h3 class="text-start">Project Details</h3>
+                                    <p style="color: rgb(0,0,0);font-size: 16px;letter-spacing: normal;line-height: 24px;font-family: Lato, sans-serif;"><img src="assets/img/ADCpic.jpeg"><br>Figure 1. Image of the ADC assembled on a breadboard.<br><br><img src="assets/img/ADCTimingDiagram.png"><br>Figure 2. ADC digital timing diagram created from oscilloscope readings (an important diagnostic method).<br><br><img src="assets/img/2-2volt.jpeg"><br>Figure 3. 7 segment display reading of the binary signal from the converted 2.2 volts.<br><br>The constructed ADC can be broken&nbsp; down into several sub-circuits: TPG (trigger pulse generator), CPG (clock pulse generator), ATC (analog to time converter), counter, and control logic. These assembled , tested , and connected together to produce the ADC. The ATC integrates the analog input voltage and produces a binary output when the voltage ramp reaches a certain threshold. This integrated ramp is coupled with the binary pulse that produces a time window that is proportional to the input voltage. So when the integrator is triggered by the TPG, it begins to ramp up and when it reaches the threshold voltage, the comparator outputs a pulse. During this time period between the TPG and comparator pulse, the CPG is responsible sending pulses to the counter. The counter will then count these pulses which are proportional to the input voltage and produce a binary representation of the initial analog voltage which will be shown on a 7 segment display. The CPG produces continuous pulses until turned off by the control logic. The control logic is a flip flop with the TPG and ATC as inputs leading to another NAND, and the second input to that NAND is the CPG. As such, the control logic begins sending pulses to the counter when the TPG initiates until the ATC sends the end pulse. The CL also facilitates the TPG triggering the ATC. The TPG also controls the resets on the counters as to ensure that the data from previous readings does not interfere with the next reading. All of these sub circuits coming together produce an 8 bit representation of an analog voltage which is shown on the 7 segment display.<br><br>Digital and analog readings of the circuit were taken with an oscilloscope to ensure functionality at every stage of the assembly process. This data was then exported into a python jupyter notebook with the pandas library and the timing diagram plots were created with matplotlib.<br><br></p>
+                                </div>
+                                <div class="modal-footer"><button class="btn btn-light" type="button" data-bs-dismiss="modal">Close</button><button class="btn btn-primary" type="button">Save</button></div>
+                            </div>
                         </div>
                     </div>
                 </div>
@@ -201,12 +256,24 @@
                 <div class="col"></div>
             </div>
         </section>
+        <section>
+            <section class="contact-clean" style="background: rgb(206,236,255);">
+                <form id="contactform" data-bss-recipient="1552af79ee89af607c72aebb20bb5616">
+                    <h2 class="text-center">Contact Me</h2>
+                    <div class="mb-3"><input class="form-control" type="text" name="name" placeholder="Name"></div>
+                    <div class="mb-3"><input class="form-control is-invalid" type="email" name="email" placeholder="Email" style="border-color: rgb(206,212,218);"></div>
+                    <div class="mb-3"><textarea class="form-control" name="message" placeholder="Message" rows="14"></textarea></div>
+                    <div class="mb-3"><button class="btn btn-primary" type="submit">send </button></div>
+                </form>
+            </section>
+        </section>
     </main>
     <footer class="footer-basic" style="background: rgb(235,235,235);">
         <div class="social"><a href="https://github.com/yel-wishahy/"><i class="icon ion-social-github"></i></a><a href="https://www.linkedin.com/in/yousif-elwishahy/"><i class="icon ion-social-linkedin"></i></a></div>
         <p class="copyright" style="font-weight: bold;color: rgb(0,0,0);">Yousif El-Wishahy © 2022</p>
     </footer>
     <script src="assets/bootstrap/js/bootstrap.min.js"></script>
+    <script src="assets/js/smart-forms.min.js"></script>
     <script src="assets/js/bs-init.js"></script>
     <script src="https://cdnjs.cloudflare.com/ajax/libs/pikaday/1.6.1/pikaday.min.js"></script>
     <script src="assets/js/theme.js"></script>
