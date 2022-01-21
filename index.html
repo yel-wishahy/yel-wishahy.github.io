@@ -11,7 +11,8 @@
     <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Arimo&amp;display=swap">
     <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Armata&amp;display=swap">
     <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Kalam&amp;display=swap">
-    <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Titillium+Web:400,600,700">
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Lato&amp;subset=latin-ext&amp;display=swap">
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Titillium+Web:400,600,700&amp;display=swap">
     <link rel="stylesheet" href="assets/fonts/ionicons.min.css">
     <link rel="stylesheet" href="assets/css/4-Column-Team-Block---Circles.css">
     <link rel="stylesheet" href="assets/css/Animation-Cards-1.css">
@@ -112,12 +113,53 @@
             <h1>Technical Projects</h1><!-- End: H1 -->
             <!-- Start: Projects Row 1 -->
             <div class="row space-rows">
+                <!-- Start: ENPH353 -->
+                <div class="col">
+                    <div class="card cards-shadown cards-hover" data-bss-hover-animate="pulse"><img class="card-img-top w-100 d-block" src="assets/img/opencv-linefollowing.jpg">
+                        <div class="card-body">
+                            <p class="card-text cardbody-sub-text" style="color: rgb(0,0,0);font-weight: bold;font-size: 32px;text-align: center;line-height: 30px;font-family: Lato, sans-serif;">Self Driving Car</p>
+                            <p class="card-text sub-text-color" style="color: rgb(0,0,0);font-size: 24px;text-align: center;line-height: 24px;font-family: 'Titillium Web', sans-serif;">Ongoing course project: Computer vison and machine learning course project.<a class="stretched-link" href="#" data-bs-target="#modalENPH353" data-bs-toggle="modal"></a></p>
+                        </div>
+                    </div><!-- Start: modalENPH353 -->
+                    <div class="modal fade" role="dialog" tabindex="-1" id="modalENPH353">
+                        <div class="modal-dialog modal-lg" role="document">
+                            <div class="modal-content">
+                                <div class="modal-header">
+                                    <h2 class="modal-title">Self Driving Car (Jan 2022 - Present)</h2><button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                                </div>
+                                <div class="modal-body">
+                                    <!-- Start: SkillsHeading -->
+                                    <h3 class="text-start">Skills</h3><!-- End: SkillsHeading -->
+                                    <!-- Start: SkillsButtons --> <div class="d-block" style="margin-top: 0px;margin-right: 10px;margin-bottom: 15px;">
+            <button class="btn btn-primary btn-sm" type="button"  style="background: #28a745">Python</button>
+            <button class="btn btn-primary btn-sm" type="button"  style="background: #28a745">OpenCV</button>
+            <button class="btn btn-primary btn-sm" type="button"  style="background: #28a745">ROS</button>
+            <button class="btn btn-primary btn-sm" type="button"  style="background: #28a745">Gazebo</button>
+        </div><!-- End: SkillsButtons -->
+                                    <!-- Start: Reults Heading -->
+                                    <h3 class="text-start" style="margin-top: 15px;">Summary</h3><!-- End: Reults Heading -->
+                                    <!-- Start: Results Paragraph -->
+                                    <p style="color: rgb(0,0,0);font-size: 16px;letter-spacing: normal;line-height: 24px;font-family: Lato, sans-serif;">I am currently completing an engineering project course where I am creating a machine learning and computer vison based self driving car. The car is simulated in ROS and Gazebo. There are several smaller assignments where I am learning the necessary skills to create the program. As I complete the project, I will update this page to showcase my work.&nbsp;<br></p><!-- End: Results Paragraph -->
+                                    <!-- Start: Contribution -->
+                                    <h3 class="text-start">Path Following Algorithm with OpenCV</h3><!-- End: Contribution -->
+                                    <div class="btn-group" role="group" style="margin-top: 0px;margin-right: -6px;margin-bottom: 15px;"><button class="btn btn-primary" type="button" style="background: rgb(100,163,50);margin-right: 10px;">Code<a class="stretched-link" href="https://colab.research.google.com/drive/1NEo9aB7L0fl1bnfSRKzWv2aWU7RxFihp?usp=sharing#scrollTo=elwSmoJkGnYi"></a></button></div><!-- Start: Results Paragraph -->
+                                    <p style="color: rgb(0,0,0);font-size: 16px;letter-spacing: normal;line-height: 24px;font-family: Lato, sans-serif;">I created an algorithm in Python, using the OpenCV and Numpy libraries, that takes a video input of a path and makes a green ball follow the path. It works by detecting the pixel coordinates in each frame based on RGB color values and averaging the coordinates to approximate the center of the path which the ball is moved to.</p><!-- End: Results Paragraph --><div class="embed-responsive embed-responsive-4by3">
+    <iframe width="360" height="215" src="https://www.youtube.com/embed/Rpb-7_AZGOw" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+</div>
+
+
+                                </div>
+                                <div class="modal-footer"><button class="btn btn-light" type="button" data-bs-dismiss="modal" style="background: rgb(255,90,90);">Close</button></div>
+                            </div>
+                        </div>
+                    </div><!-- End: modalENPH353 -->
+                </div><!-- End: ENPH353 -->
                 <!-- Start: RocketSim -->
                 <div class="col">
                     <div class="card cards-shadown cards-hover" data-bss-hover-animate="pulse"><img class="card-img-top w-100 d-block" src="assets/img/DEVLOG1.png">
                         <div class="card-body">
-                            <p class="card-text cardbody-sub-text" style="color: rgb(0,0,0);font-weight: bold;font-size: 32px;text-align: center;line-height: 30px;">Rocket Simualtion</p>
-                            <p class="card-text sub-text-color" style="color: rgb(0,0,0);font-size: 24px;text-align: center;line-height: 24px;">Ongoing project: creating a rocket simulation with orbital mechanics in Unity.</p>
+                            <p class="card-text cardbody-sub-text" style="color: rgb(0,0,0);font-weight: bold;font-size: 32px;text-align: center;line-height: 30px;font-family: Lato, sans-serif;">Rocket Simualtion</p>
+                            <p class="card-text sub-text-color" style="color: rgb(0,0,0);font-size: 24px;text-align: center;line-height: 24px;font-family: 'Titillium Web', sans-serif;">Ongoing personal project: creating a rocket simulation with orbital mechanics in Unity.</p>
                         </div>
                     </div>
                 </div><!-- End: RocketSim -->
@@ -125,8 +167,8 @@
                 <div class="col">
                     <div class="card cards-shadown cards-hover" data-bss-hover-animate="pulse"><img class="card-img-top w-100 d-block" src="assets/img/robot4.jpg">
                         <div class="card-body">
-                            <p class="card-text cardbody-sub-text" style="color: rgb(0,0,0);font-weight: bold;font-size: 32px;text-align: center;line-height: 30px;">Can Retrieval Robot</p>
-                            <p class="card-text sub-text-color" style="color: rgb(0,0,0);font-size: 24px;text-align: center;line-height: 24px;">An autonomous navigation, collection, and disposal robot.<a class="stretched-link" href="#" data-bs-target="#modalRobot" data-bs-toggle="modal"></a></p>
+                            <p class="card-text cardbody-sub-text" style="color: rgb(0,0,0);font-weight: bold;font-size: 32px;text-align: center;line-height: 30px;font-family: Lato, sans-serif;">Can Retrieval Robot</p>
+                            <p class="card-text sub-text-color" style="color: rgb(0,0,0);font-size: 24px;text-align: center;line-height: 24px;font-family: 'Titillium Web', sans-serif;">An autonomous navigation, collection, and disposal robot.<a class="stretched-link" href="#" data-bs-target="#modalRobot" data-bs-toggle="modal"></a></p>
                         </div>
                     </div><!-- Start: modalRobot -->
                     <div class="modal fade" role="dialog" tabindex="-1" id="modalRobot">
@@ -210,12 +252,15 @@
                         </div>
                     </div><!-- End: modalRobot -->
                 </div><!-- End: CanRobot -->
+            </div><!-- End: Projects Row 1 -->
+            <!-- Start: Projects Row 2 -->
+            <div class="row space-rows">
                 <!-- Start: MCPlugin -->
                 <div class="col">
                     <div class="card cards-shadown cards-hover" data-bss-hover-animate="pulse"><img class="card-img-top w-100 d-block" src="assets/img/ItemEconomyAd.png" href="ChickenFighter/index.html">
                         <div class="card-body">
                             <p class="card-text cardbody-sub-text" style="color: rgb(0,0,0);font-weight: bold;font-size: 32px;text-align: center;line-height: 30px;">Item Economy</p>
-                            <p class="card-text sub-text-color" style="color: rgb(0,0,0);font-size: 24px;text-align: center;line-height: 24px;">A Minecraft plugin which allows players to create bank accounts and utilize item based currencies.<a class="stretched-link" href="#" data-bs-target="#modalMCPlugin" data-bs-toggle="modal"></a></p>
+                            <p class="card-text sub-text-color" style="color: rgb(0,0,0);font-size: 24px;text-align: center;line-height: 24px;font-family: 'Titillium Web', sans-serif;">A Minecraft plugin which allows players to create bank accounts and utilize item based currencies.<a class="stretched-link" href="#" data-bs-target="#modalMCPlugin" data-bs-toggle="modal"></a></p>
                         </div>
                     </div><!-- Start: modalMCPlugin -->
                     <div class="modal fade" role="dialog" tabindex="-1" id="modalMCPlugin">
@@ -250,15 +295,12 @@
                         </div>
                     </div><!-- End: modalMCPlugin -->
                 </div><!-- End: MCPlugin -->
-            </div><!-- End: Projects Row 1 -->
-            <!-- Start: Projects Row 2 -->
-            <div class="row space-rows">
                 <!-- Start: 2Dgame -->
                 <div class="col">
                     <div class="card cards-shadown cards-hover" data-bss-hover-animate="pulse"><img class="card-img-top w-100 d-block" src="assets/img/2dgame.png">
                         <div class="card-body">
                             <p class="card-text cardbody-sub-text" style="color: rgb(0,0,0);font-weight: bold;font-size: 32px;text-align: center;line-height: 30px;">Chicken Runner</p>
-                            <p class="card-text sub-text-color" style="color: rgb(0,0,0);font-size: 24px;text-align: center;line-height: 24px;">A 2D platformer fighter game where you engage in combat with chickens and pickup special items.<a class="stretched-link" href="ChickenFighter/index.html"></a></p>
+                            <p class="card-text sub-text-color" style="color: rgb(0,0,0);font-size: 24px;text-align: center;line-height: 24px;font-family: 'Titillium Web', sans-serif;">A 2D platformer game where you engage in combat with chickens and pickup special items. Click to play!<a class="stretched-link" href="ChickenFighter/index.html"></a></p>
                         </div>
                     </div>
                 </div><!-- End: 2Dgame -->
@@ -267,16 +309,19 @@
                     <div class="card cards-shadown cards-hover" data-bss-hover-animate="pulse"><img class="card-img-top w-100 d-block" src="assets/img/download.png">
                         <div class="card-body">
                             <p class="card-text cardbody-sub-text" style="color: rgb(0,0,0);font-weight: bold;font-size: 32px;text-align: center;line-height: 30px;">UBC Mars Colony</p>
-                            <p class="card-text sub-text-color" style="color: rgb(0,0,0);font-size: 24px;text-align: center;line-height: 24px;">An engineering student team with the goal of designing and assembling infrastructure that could allow for habitation and research on Mars.<a class="stretched-link" href="#modal-1" data-bs-target="#modal-1" data-bs-toggle="modal"></a></p>
+                            <p class="card-text sub-text-color" style="color: rgb(0,0,0);font-size: 24px;text-align: center;line-height: 24px;font-family: 'Titillium Web', sans-serif;">An engineering student team with the goal of designing and assembling infrastructure that could allow for habitation and research on Mars.<a class="stretched-link" href="" data-bs-target="" data-bs-toggle="modal"></a></p>
                         </div>
                     </div>
                 </div><!-- End: MarsColony -->
+            </div><!-- End: Projects Row 2 -->
+            <!-- Start: Projects Row 3 -->
+            <div class="row space-rows">
                 <!-- Start: ADC circuit -->
                 <div class="col">
                     <div class="card cards-shadown cards-hover" data-bss-hover-animate="pulse"><img class="card-img-top w-100 d-block" src="assets/img/ADCpic.jpeg">
                         <div class="card-body">
                             <p class="card-text cardbody-sub-text" style="color: rgb(0,0,0);font-weight: bold;font-size: 32px;text-align: center;line-height: 30px;">Analog to Digital Converter</p>
-                            <p class="card-text sub-text-color" style="color: rgb(0,0,0);font-size: 24px;text-align: center;line-height: 24px;">An electronic circuit that converts analog voltages into binary signals.<a class="stretched-link" href="#" data-bs-target="#modalADC" data-bs-toggle="modal"></a></p>
+                            <p class="card-text sub-text-color" style="color: rgb(0,0,0);font-size: 24px;text-align: center;line-height: 24px;font-family: 'Titillium Web', sans-serif;">An electronic circuit that converts analog voltages into binary signals.<a class="stretched-link" href="#" data-bs-target="#modalADC" data-bs-toggle="modal"></a></p>
                         </div>
                     </div><!-- Start: modalADC -->
                     <div class="modal fade" role="dialog" tabindex="-1" id="modalADC">
@@ -312,15 +357,12 @@
                         </div>
                     </div><!-- End: modalADC -->
                 </div><!-- End: ADC circuit -->
-            </div><!-- End: Projects Row 2 -->
-            <!-- Start: Projects Row 3 -->
-            <div class="row space-rows">
                 <!-- Start: AIVirtualWorld -->
                 <div class="col">
                     <div class="card cards-shadown cards-hover" data-bss-hover-animate="pulse"><img class="card-img-top w-100 d-block" src="assets/img/AIWORLDcpen221.png">
                         <div class="card-body">
                             <p class="card-text cardbody-sub-text" style="color: rgb(0,0,0);font-weight: bold;font-size: 32px;text-align: center;line-height: 30px;">AI Virtual World</p>
-                            <p class="card-text sub-text-color" style="color: rgb(0,0,0);font-size: 24px;text-align: center;line-height: 24px;">A virtual world AI simulation with 2D pixel-art developed in Java.</p>
+                            <p class="card-text sub-text-color" style="color: rgb(0,0,0);font-size: 24px;text-align: center;line-height: 24px;font-family: 'Titillium Web', sans-serif;">A virtual world AI simulation with 2D pixel-art developed in Java.</p>
                         </div>
                     </div>
                 </div><!-- End: AIVirtualWorld -->
@@ -329,12 +371,10 @@
                     <div class="card cards-shadown cards-hover" data-bss-hover-animate="pulse"><img class="card-img-top w-100 d-block" src="assets/img/roboticClaw.jpg">
                         <div class="card-body">
                             <p class="card-text cardbody-sub-text" style="color: rgb(0,0,0);font-weight: bold;font-size: 32px;text-align: center;line-height: 30px;">Robotic Claw</p>
-                            <p class="card-text sub-text-color" style="color: rgb(0,0,0);font-size: 24px;text-align: center;line-height: 24px;">A semi-autonomous robotic claw designed to pickup items of different sizes.</p>
+                            <p class="card-text sub-text-color" style="color: rgb(0,0,0);font-size: 24px;text-align: center;line-height: 24px;font-family: 'Titillium Web', sans-serif;">A semi-autonomous robotic claw designed to pickup various items.</p>
                         </div>
                     </div>
                 </div><!-- End: RoboticClaw -->
-                <!-- Start: AIVirtualWorld -->
-                <div class="col"></div><!-- End: AIVirtualWorld -->
             </div><!-- End: Projects Row 3 -->
         </section><!-- End: Projects -->
         <!-- Start: Contact Form -->
@@ -364,22 +404,6 @@
     <script src="https://cdnjs.cloudflare.com/ajax/libs/pikaday/1.6.1/pikaday.min.js"></script>
     <script src="assets/js/modalLink.js"></script>
     <script src="assets/js/theme.js"></script>
-	<script type="text/javascript">jQuery(document).ready(function($) {
-var target = document.location.hash.replace("#", "");
-if (target.length) {
-    if(target=="modalRobot"){
-      $('#modalRobot').modal('show');
-    }
-    else if(target=="modal2link"){
-      $('#modal2').modal('show');
-    }
-else if(target=="modal3link"){
-      $('#modal3').modal('show');
-    }
-}else{    
-}
-});
-</script>
 </body>
 
 </html>
