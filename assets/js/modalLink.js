@@ -1,3 +1,3 @@
-(document).ready(function() {
-    $('#modalRobot').modal('show')
+$(document).ready(function() {
+    $(window.location.hash).modal('show')
 });
